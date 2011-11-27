@@ -2,9 +2,14 @@
 Welcome to the Sonar Workshop. This 
 
 === Tool Pre-reqs
-* Test JVM
-** `java --version`
-** Should be 1.6 or higher.
+==== Test The JVM
+We need a Java version of 1.6 or higher for the Sonar tool to run and a JDK of 1.6 or higher for our specific sample application to build and run the Sonar sensors. Sonar is fully capable of running on JDKs back to 1.5, but we'll focus on newer releases in this workshop.
+
+* Run `java -version`
+* The results should be Java version 1.6 or higher.
+* Run `javac -version`
+* The results should be Java version 1.6 or higher.
+
 * Test Git
 ** `git --version`
 ** Should be 1.7 or higher.
@@ -13,11 +18,8 @@ Welcome to the Sonar Workshop. This
 * Get the binary
 ** Available from http://sonarsource.org at the download link.
 * Unpack the binary
-* Test Sonar
+* Test Sonar is up and running
 ** http://localhost:9000
-
-
-=== Testing Sonar
 
 === First Project
 * Download commons-collections project or game-of-life from Git
