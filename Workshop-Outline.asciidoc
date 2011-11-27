@@ -1,0 +1,32 @@
+== Sonar Workshop
+Welcome to the Sonar Workshop. This 
+
+=== Tool Pre-reqs
+* Test JVM
+** `java --version`
+** Should be 1.6 or higher.
+* Test Git
+** `git --version`
+** Should be 1.7 or higher.
+
+=== Installing Sonar
+* Get the binary
+** Available from http://sonarsource.org at the download link.
+* Unpack the binary
+* Test Sonar
+** http://localhost:9000
+
+
+=== Testing Sonar
+
+=== First Project
+* Download commons-collections project or game-of-life from Git
+
+=== Results of Analysis
+* Sonar ony collects what the build tool has output (sensors)
+* T
+
+=== Modifying a Profile
+- Why profiles matter
+* Keeping them the same over time (big disjunctions)
+* Turning on static analysis
