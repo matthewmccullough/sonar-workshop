@@ -1,34 +1,71 @@
 == Sonar Workshop
-Welcome to the Sonar Workshop. This 
+Welcome to the Sonar Workshop. This workshop is a hands-on installation and execution of Sonar, the metrics tool.
+
 
 === Tool Pre-reqs
-==== Test The JVM
+There are several tools that are necessary for running Sonar. Below, each prerequisite is listed and a validation step is offered.
+
+==== The Java Virtual Machine (JVM)
 We need a Java version of 1.6 or higher for the Sonar tool to run and a JDK of 1.6 or higher for our specific sample application to build and run the Sonar sensors. Sonar is fully capable of running on JDKs back to 1.5, but we'll focus on newer releases in this workshop.
 
+===== Java Runtime Environment (JRE)
 * Run `java -version`
 * The results should be Java version 1.6 or higher.
+
+===== Java Development Kit (JDK)
 * Run `javac -version`
 * The results should be Java version 1.6 or higher.
 
-* Test Git
-** `git --version`
-** Should be 1.7 or higher.
+==== Git Version Control System
+* Run `git --version`
+* Should be 1.7 or higher.
+
 
 === Installing Sonar
 * Get the binary
 ** Available from http://sonarsource.org at the download link.
-* Unpack the binary
+** Available on this room's (Atlantic V) content server
+
+* Unpack the binary in a temp directory that will contain all of today's tools.
+** Recommendation is a `sonartools` directory beneath your user directory
+
+* Start Sonar
+** Go to the `sonar-2.11/bin/<yourplatform>` directory and run `sonar.sh start`
 * Test Sonar is up and running
 ** http://localhost:9000
 
-=== First Project
-* Download commons-collections project or game-of-life from Git
+
+=== First Project (Maven)
+* Download log4j project (git repo)
+* Download commons-collections project from Git
+
 
 === Results of Analysis
-* Sonar ony collects what the build tool has output (sensors)
-* T
+* Sonar only collects what the build tool has output (sensors)
+
 
 === Modifying a Profile
 - Why profiles matter
 * Keeping them the same over time (big disjunctions)
 * Turning on static analysis
+
+
+=== More Plugins
+* SQL
+* PHP
+* XML
+* JS
+* HTML
+* Security
+* Groovy
+* Motion Chart
+
+
+=== Database
+* Setting an alternate DB
+* MySQL on Content Server
+
+=== Suppressing
+* Generated source shouldn't be analyzed?
+* Exclude from UI
+* Exclude via build script
