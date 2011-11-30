@@ -25,6 +25,10 @@ We need a Java version of 1.6 or higher for the Sonar tool to run and a JDK of 1
 * Get the binary
 ** Available from http://sonarsource.org at the download link.
 ** Available on this room's (Atlantic V) content server
+*** Join SSID: atlantic5
+*** Password: rwxpax2011
+*** URL: http://content3.local/rwx2011/Sonar/
+
 
 * Unpack the binary in a temp directory that will contain all of today's tools.
 ** Recommendation is a `sonartools` directory beneath your user directory
