@@ -12,6 +12,9 @@ Feedback is always welcome. Email matthewm@ambientideas.com, but please have pat
 
 ------------------------
 
+## Chat Room
+### https://github.campfirenow.com/151d4
+
 ## Pre-re Testing
 
 The environment variable `JAVA_HOME` needs to be set to a Java JDK. It is insufficent to have it set to a JRE because that does not include a Java compiler.
